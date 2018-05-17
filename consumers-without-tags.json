@@ -1,0 +1,13 @@
+{
+	"owner": "bob",
+	"dataset": "Bank of America - 3/31/18",
+	"name": "Jane Dpe",
+	"state": "CA",
+	"city": "San Francisco",
+	"zipcode": "94102",
+	"email": "jane.doe2014@gmail.com",
+	"birthday": "1998-1-31",
+	"cardnumber": "1111-0000-0000-0000",
+	"ssn": "111-000-0000",
+	"creditscore": "750",
+}
