@@ -204,5 +204,6 @@
       ]
     }
   },
-  "required": ["owner", "dataset", "name", "state", "city", "zipcode", "email", "birthday", "cardnumber", "ssn", "creditscore"]
+  "required": ["owner", "dataset", "name", "state", "city", "zipcode", "email", "birthday", "cardnumber", "ssn", "creditscore"],
+  "indexed-fields": ["state", "city", "zipcode", "creditscore"]
 }
