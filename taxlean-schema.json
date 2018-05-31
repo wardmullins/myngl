@@ -1,0 +1,389 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "Record_ID": {
+      "$id": "/properties/Record_ID",
+      "type": "integer",
+      "title": "The Record_id Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "Record_ID-myngl-security": {
+      "$id": "/properties/Record_ID-myngl-security",
+      "type": "string",
+      "title": "The Record_id-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Record_Date_Stamp": {
+      "$id": "/properties/Record_Date_Stamp",
+      "type": "string",
+      "title": "The Record_date_stamp Schema ",
+      "default": "",
+      "examples": [
+        "datetime"
+      ]
+    },
+    "Record_Date_Stamp-myngl-security": {
+      "$id": "/properties/Record_Date_Stamp-myngl-security",
+      "type": "string",
+      "title": "The Record_date_stamp-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Agency_ID": {
+      "$id": "/properties/Agency_ID",
+      "type": "string",
+      "title": "The Agency_id Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Agency_ID-myngl-security": {
+      "$id": "/properties/Agency_ID-myngl-security",
+      "type": "string",
+      "title": "The Agency_id-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Agency_Name": {
+      "$id": "/properties/Agency_Name",
+      "type": "string",
+      "title": "The Agency_name Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Agency_Name-myngl-security": {
+      "$id": "/properties/Agency_Name-myngl-security",
+      "type": "string",
+      "title": "The Agency_name-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Agency_Address": {
+      "$id": "/properties/Agency_Address",
+      "type": "string",
+      "title": "The Agency_address Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Agency_Address-myngl-security": {
+      "$id": "/properties/Agency_Address-myngl-security",
+      "type": "string",
+      "title": "The Agency_address-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Agency_City": {
+      "$id": "/properties/Agency_City",
+      "type": "string",
+      "title": "The Agency_city Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Agency_City-myngl-security": {
+      "$id": "/properties/Agency_City-myngl-security",
+      "type": "string",
+      "title": "The Agency_city-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Agency_Zip": {
+      "$id": "/properties/Agency_Zip",
+      "type": "integer",
+      "title": "The Agency_zip Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "Agency_Zip-myngl-security": {
+      "$id": "/properties/Agency_Zip-myngl-security",
+      "type": "string",
+      "title": "The Agency_zip-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Agency_State": {
+      "$id": "/properties/Agency_State",
+      "type": "string",
+      "title": "The Agency_state Schema ",
+      "default": "",
+      "examples": [
+        "alpha"
+      ]
+    },
+    "Agency_State-myngl-security": {
+      "$id": "/properties/Agency_State-myngl-security",
+      "type": "string",
+      "title": "The Agency_state-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "First_Name": {
+      "$id": "/properties/First_Name",
+      "type": "string",
+      "title": "The First_name Schema ",
+      "default": "",
+      "examples": [
+        "alpha"
+      ]
+    },
+    "First_Name-myngl-security": {
+      "$id": "/properties/First_Name-myngl-security",
+      "type": "string",
+      "title": "The First_name-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Middle_Init": {
+      "$id": "/properties/Middle_Init",
+      "type": "string",
+      "title": "The Middle_init Schema ",
+      "default": "",
+      "examples": [
+        "alpha"
+      ]
+    },
+    "Middle_Init-myngl-security": {
+      "$id": "/properties/Middle_Init-myngl-security",
+      "type": "string",
+      "title": "The Middle_init-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Last_Name": {
+      "$id": "/properties/Last_Name",
+      "type": "string",
+      "title": "The Last_name Schema ",
+      "default": "",
+      "examples": [
+        "alpha"
+      ]
+    },
+    "Last_Name-myngl-security": {
+      "$id": "/properties/Last_Name-myngl-security",
+      "type": "string",
+      "title": "The Last_name-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "SSN": {
+      "$id": "/properties/SSN",
+      "type": "integer",
+      "title": "The Ssn Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "SSN-myngl-security": {
+      "$id": "/properties/SSN-myngl-security",
+      "type": "string",
+      "title": "The Ssn-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Name": {
+      "$id": "/properties/Name",
+      "type": "integer",
+      "title": "The Name Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "Name-myngl-security": {
+      "$id": "/properties/Name-myngl-security",
+      "type": "string",
+      "title": "The Name-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Address": {
+      "$id": "/properties/Address",
+      "type": "string",
+      "title": "The Address Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Address-myngl-security": {
+      "$id": "/properties/Address-myngl-security",
+      "type": "string",
+      "title": "The Address-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "City": {
+      "$id": "/properties/City",
+      "type": "string",
+      "title": "The City Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "City-myngl-security": {
+      "$id": "/properties/City-myngl-security",
+      "type": "string",
+      "title": "The City-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Zip": {
+      "$id": "/properties/Zip",
+      "type": "integer",
+      "title": "The Zip Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "Zip-myngl-security": {
+      "$id": "/properties/Zip-myngl-security",
+      "type": "string",
+      "title": "The Zip-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "State": {
+      "$id": "/properties/State",
+      "type": "string",
+      "title": "The State Schema ",
+      "default": "",
+      "examples": [
+        "alpha"
+      ]
+    },
+    "State-myngl-security": {
+      "$id": "/properties/State-myngl-security",
+      "type": "string",
+      "title": "The State-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Tax_Lien_Status": {
+      "$id": "/properties/Tax_Lien_Status",
+      "type": "integer",
+      "title": "The Tax_lien_status Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "Tax_Lien_Date": {
+      "$id": "/properties/Tax_Lien_Date",
+      "type": "string",
+      "title": "The Tax_lien_date Schema ",
+      "default": "",
+      "examples": [
+        "date"
+      ]
+    },
+    "Tax_Lien_Date-myngl-security": {
+      "$id": "/properties/Tax_Lien_Date-myngl-security",
+      "type": "string",
+      "title": "The Tax_lien_date-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Tax_Lien_Amount": {
+      "$id": "/properties/Tax_Lien_Amount",
+      "type": "string",
+      "title": "The Tax_lien_amount Schema ",
+      "default": "",
+      "examples": [
+        "date"
+      ]
+    },
+    "Tax_Lien_Amount-myngl-security": {
+      "$id": "/properties/Tax_Lien_Amount-myngl-security",
+      "type": "string",
+      "title": "The Tax_lien_amount-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Tax_Lien_Current_Balance": {
+      "$id": "/properties/Tax_Lien_Current_Balance",
+      "type": "integer",
+      "title": "The Tax_lien_current_balance Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "Tax_Lien_Last_Payment_Date": {
+      "$id": "/properties/Tax_Lien_Last_Payment_Date",
+      "type": "string",
+      "title": "The Tax_lien_last_payment_date Schema ",
+      "default": "",
+      "examples": [
+        "date"
+      ]
+    },
+    "Tax_Lien_Last_Payment_Date-myngl-security": {
+      "$id": "/properties/Tax_Lien_Last_Payment_Date-myngl-security",
+      "type": "string",
+      "title": "The Tax_lien_last_payment_date-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    }
+  },
+
+  "required": [ "Address", "Agency_Address", "Agency_City", "Agency_ID", "Agency_Name", "Agency_State", "Agency_Zip", "City", "First_Name", "Last_Name", "Middle_Init", "Name", "Record_Date_Stamp", "Record_ID", "SSN", "State", "Tax_Lien_Amount", "Tax_Lien_Current_Balance", "Tax_Lien_Date", "Tax_Lien_Last_Payment_Date", "Tax_Lien_Status", "Zip" ],
+  "indexed-fields": ["SSN", "Name", "First_Name", "Last_Name", "Address"]
+}

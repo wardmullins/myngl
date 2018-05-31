@@ -1,0 +1,443 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "Record_ID": {
+      "$id": "/properties/Record_ID",
+      "type": "integer",
+      "title": "The Record_id Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "Record_ID-myngl-security": {
+      "$id": "/properties/Record_ID-myngl-security",
+      "type": "string",
+      "title": "The Record_id-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Carrier_ID": {
+      "$id": "/properties/Carrier_ID",
+      "type": "string",
+      "title": "The Carrier_id Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Carrier_ID-myngl-security": {
+      "$id": "/properties/Carrier_ID-myngl-security",
+      "type": "string",
+      "title": "The Carrier_id-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Carrier_Name": {
+      "$id": "/properties/Carrier_Name",
+      "type": "string",
+      "title": "The Carrier_name Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Carrier_Name-myngl-security": {
+      "$id": "/properties/Carrier_Name-myngl-security",
+      "type": "string",
+      "title": "The Carrier_name-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Carrier_Address": {
+      "$id": "/properties/Carrier_Address",
+      "type": "string",
+      "title": "The Carrier_address Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Carrier_Address-myngl-security": {
+      "$id": "/properties/Carrier_Address-myngl-security",
+      "type": "string",
+      "title": "The Carrier_address-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Carrier_City": {
+      "$id": "/properties/Carrier_City",
+      "type": "string",
+      "title": "The Carrier_city Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Carrier_City-myngl-security": {
+      "$id": "/properties/Carrier_City-myngl-security",
+      "type": "string",
+      "title": "The Carrier_city-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Carrier_Zip": {
+      "$id": "/properties/Carrier_Zip",
+      "type": "integer",
+      "title": "The Carrier_zip Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "Carrier_Zip-myngl-security": {
+      "$id": "/properties/Carrier_Zip-myngl-security",
+      "type": "string",
+      "title": "The Carrier_zip-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Carrier_State": {
+      "$id": "/properties/Carrier_State",
+      "type": "string",
+      "title": "The Carrier_state Schema ",
+      "default": "",
+      "examples": [
+        "alpha"
+      ]
+    },
+    "Carrier_State-myngl-security": {
+      "$id": "/properties/Carrier_State-myngl-security",
+      "type": "string",
+      "title": "The Carrier_state-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Customer_First_Name": {
+      "$id": "/properties/Customer_First_Name",
+      "type": "string",
+      "title": "The Customer_first_name Schema ",
+      "default": "",
+      "examples": [
+        "alpha"
+      ]
+    },
+    "Customer_First_Name-myngl-security": {
+      "$id": "/properties/Customer_First_Name-myngl-security",
+      "type": "string",
+      "title": "The Customer_first_name-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Customer_Middle_Init": {
+      "$id": "/properties/Customer_Middle_Init",
+      "type": "string",
+      "title": "The Customer_middle_init Schema ",
+      "default": "",
+      "examples": [
+        "alpha"
+      ]
+    },
+    "Customer_Middle_Init-myngl-security": {
+      "$id": "/properties/Customer_Middle_Init-myngl-security",
+      "type": "string",
+      "title": "The Customer_middle_init-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Customer_Last_Name": {
+      "$id": "/properties/Customer_Last_Name",
+      "type": "string",
+      "title": "The Customer_last_name Schema ",
+      "default": "",
+      "examples": [
+        "alpha"
+      ]
+    },
+    "Customer_Last_Name-myngl-security": {
+      "$id": "/properties/Customer_Last_Name-myngl-security",
+      "type": "string",
+      "title": "The Customer_last_name-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Customer_SSN": {
+      "$id": "/properties/Customer_SSN",
+      "type": "integer",
+      "title": "The Customer_ssn Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "Customer_SSN-myngl-security": {
+      "$id": "/properties/Customer_SSN-myngl-security",
+      "type": "string",
+      "title": "The Customer_ssn-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Customer_Name": {
+      "$id": "/properties/Customer_Name",
+      "type": "integer",
+      "title": "The Customer_name Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "Customer_Name-myngl-security": {
+      "$id": "/properties/Customer_Name-myngl-security",
+      "type": "string",
+      "title": "The Customer_name-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Customer_Address": {
+      "$id": "/properties/Customer_Address",
+      "type": "string",
+      "title": "The Customer_address Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Customer_Address-myngl-security": {
+      "$id": "/properties/Customer_Address-myngl-security",
+      "type": "string",
+      "title": "The Customer_address-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Customer_City": {
+      "$id": "/properties/Customer_City",
+      "type": "string",
+      "title": "The Customer_city Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Customer_City-myngl-security": {
+      "$id": "/properties/Customer_City-myngl-security",
+      "type": "string",
+      "title": "The Customer_city-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Customer_Zip": {
+      "$id": "/properties/Customer_Zip",
+      "type": "integer",
+      "title": "The Customer_zip Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "Customer_Zip-myngl-security": {
+      "$id": "/properties/Customer_Zip-myngl-security",
+      "type": "string",
+      "title": "The Customer_zip-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Customer_State": {
+      "$id": "/properties/Customer_State",
+      "type": "string",
+      "title": "The Customer_state Schema ",
+      "default": "",
+      "examples": [
+        "alpha"
+      ]
+    },
+    "Customer_State-myngl-security": {
+      "$id": "/properties/Customer_State-myngl-security",
+      "type": "string",
+      "title": "The Customer_state-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Customer_Phone": {
+      "$id": "/properties/Customer_Phone",
+      "type": "string",
+      "title": "The Customer_phone Schema ",
+      "default": "",
+      "examples": [
+        "xxx-xxx-xxxx"
+      ]
+    },
+    "Customer_Phone-myngl-security": {
+      "$id": "/properties/Customer_Phone-myngl-security",
+      "type": "string",
+      "title": "The Customer_phone-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Customer_Email": {
+      "$id": "/properties/Customer_Email",
+      "type": "string",
+      "title": "The Customer_email Schema ",
+      "default": "",
+      "examples": [
+        "email"
+      ]
+    },
+    "Customer_Email-myngl-security": {
+      "$id": "/properties/Customer_Email-myngl-security",
+      "type": "string",
+      "title": "The Customer_email-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Invoice_Amount": {
+      "$id": "/properties/Invoice_Amount",
+      "type": "string",
+      "title": "The Invoice_amount Schema ",
+      "default": "",
+      "examples": [
+        "currency"
+      ]
+    },
+    "Invoice_Amount-myngl-security": {
+      "$id": "/properties/Invoice_Amount-myngl-security",
+      "type": "string",
+      "title": "The Invoice_amount-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Invoice_Date": {
+      "$id": "/properties/Invoice_Date",
+      "type": "string",
+      "title": "The Invoice_date Schema ",
+      "default": "",
+      "examples": [
+        "date"
+      ]
+    },
+    "Invoice_Date-myngl-security": {
+      "$id": "/properties/Invoice_Date-myngl-security",
+      "type": "string",
+      "title": "The Invoice_date-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Payment_Due_Date": {
+      "$id": "/properties/Payment_Due_Date",
+      "type": "string",
+      "title": "The Payment_due_date Schema ",
+      "default": "",
+      "examples": [
+        "date"
+      ]
+    },
+    "Payment_Due_Date-myngl-security": {
+      "$id": "/properties/Payment_Due_Date-myngl-security",
+      "type": "string",
+      "title": "The Payment_due_date-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Payment_Received": {
+      "$id": "/properties/Payment_Received",
+      "type": "string",
+      "title": "The Payment_received Schema ",
+      "default": "",
+      "examples": [
+        "alpha"
+      ]
+    },
+    "Payment_Received-myngl-security": {
+      "$id": "/properties/Payment_Received-myngl-security",
+      "type": "string",
+      "title": "The Payment_received-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Payment_Received_Date": {
+      "$id": "/properties/Payment_Received_Date",
+      "type": "integer",
+      "title": "The Payment_received_date Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "Payment_Received_Date-myngl-security": {
+      "$id": "/properties/Payment_Received_Date-myngl-security",
+      "type": "string",
+      "title": "The Payment_received_date-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Balance_Due": {
+      "$id": "/properties/Balance_Due",
+      "type": "string",
+      "title": "The Balance_due Schema ",
+      "default": "",
+      "examples": [
+        "currency"
+      ]
+    },
+    "Balance_Due-myngl-security": {
+      "$id": "/properties/Balance_Due-myngl-security",
+      "type": "string",
+      "title": "The Balance_due-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    }
+  },
+
+  "required": [ "Balance_Due", "Carrier_Address", "Carrier_City", "Carrier_ID", "Carrier_Name", "Carrier_State", "Carrier_Zip", "Customer_Address", "Customer_City", "Customer_Email", "Customer_First_Name", "Customer_Last_Name", "Customer_Middle_Init", "Customer_Name", "Customer_Phone", "Customer_SSN", "Customer_State", "Customer_Zip", "Invoice_Amount", "Invoice_Date", "Payment_Due_Date", "Payment_Received", "Payment_Received_Date", "Record_ID" ],
+  "indexed-fields": ["Customer_SSN", "Customer_Name", "Customer_First_Name", "Customer_Last_Name", "Customer_Address"]
+}

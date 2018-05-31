@@ -1,0 +1,227 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "Record_ID": {
+      "$id": "/properties/Record_ID",
+      "type": "integer",
+      "title": "The Record_id Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "Record_Date_Stamp": {
+      "$id": "/properties/Record_Date_Stamp",
+      "type": "string",
+      "title": "The Record_date_stamp Schema ",
+      "default": "",
+      "examples": [
+        "datetime"
+      ]
+    },
+    "Bank_ID": {
+      "$id": "/properties/Bank_ID",
+      "type": "string",
+      "title": "The Bank_id Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Bank_Name": {
+      "$id": "/properties/Bank_Name",
+      "type": "string",
+      "title": "The Bank_name Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Bank_Address": {
+      "$id": "/properties/Bank_Address",
+      "type": "string",
+      "title": "The Bank_address Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Bank_City": {
+      "$id": "/properties/Bank_City",
+      "type": "string",
+      "title": "The Bank_city Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Bank_Zip": {
+      "$id": "/properties/Bank_Zip",
+      "type": "integer",
+      "title": "The Bank_zip Schema ",
+      "default": 0,
+      "examples": [
+        99999
+      ]
+    },
+    "Bank_State": {
+      "$id": "/properties/Bank_State",
+      "type": "string",
+      "title": "The Bank_state Schema ",
+      "default": "",
+      "examples": [
+        "alpha"
+      ]
+    },
+    "Customer_First_Name": {
+      "$id": "/properties/Customer_First_Name",
+      "type": "string",
+      "title": "The Customer_first_name Schema ",
+      "default": "",
+      "examples": [
+        "alpha"
+      ]
+    },
+    "Customer_Middle_Init": {
+      "$id": "/properties/Customer_Middle_Init",
+      "type": "string",
+      "title": "The Customer_middle_init Schema ",
+      "default": "",
+      "examples": [
+        "alpha"
+      ]
+    },
+    "Customer_Last_Name": {
+      "$id": "/properties/Customer_Last_Name",
+      "type": "string",
+      "title": "The Customer_last_name Schema ",
+      "default": "",
+      "examples": [
+        "alpha"
+      ]
+    },
+    "Customer_SSN": {
+      "$id": "/properties/Customer_SSN",
+      "type": "integer",
+      "title": "The Customer_ssn Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "Customer_Name": {
+      "$id": "/properties/Customer_Name",
+      "type": "integer",
+      "title": "The Customer_name Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "Customer_Address": {
+      "$id": "/properties/Customer_Address",
+      "type": "string",
+      "title": "The Customer_address Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Customer_City": {
+      "$id": "/properties/Customer_City",
+      "type": "string",
+      "title": "The Customer_city Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Customer_Zip": {
+      "$id": "/properties/Customer_Zip",
+      "type": "integer",
+      "title": "The Customer_zip Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "Customer_State": {
+      "$id": "/properties/Customer_State",
+      "type": "string",
+      "title": "The Customer_state Schema ",
+      "default": "",
+      "examples": [
+        "alpha"
+      ]
+    },
+    "Customer_Phone": {
+      "$id": "/properties/Customer_Phone",
+      "type": "string",
+      "title": "The Customer_phone Schema ",
+      "default": "",
+      "examples": [
+        "xxx-xxx-xxxx"
+      ]
+    },
+    "Customer_Email": {
+      "$id": "/properties/Customer_Email",
+      "type": "string",
+      "title": "The Customer_email Schema ",
+      "default": "",
+      "examples": [
+        "email"
+      ]
+    },
+    "Bank_Account_Type_1": {
+      "$id": "/properties/Bank_Account_Type_1",
+      "type": "string",
+      "title": "The Bank_account_type_1 Schema ",
+      "default": "",
+      "examples": [
+        "alpha"
+      ]
+    },
+    "Good_Standing_Rank": {
+      "$id": "/properties/Good_Standing_Rank",
+      "type": "integer",
+      "title": "The Good_standing_rank Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "Account_Established_Date": {
+      "$id": "/properties/Account_Established_Date",
+      "type": "string",
+      "title": "The Account_established_date Schema ",
+      "default": "",
+      "examples": [
+        "date"
+      ]
+    },
+    "Check_Returned_Count": {
+      "$id": "/properties/Check_Returned_Count",
+      "type": "integer",
+      "title": "The Check_returned_count Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "Bank_Account_Type_2": {
+      "$id": "/properties/Bank_Account_Type_2",
+      "type": "string",
+      "title": "The Bank_account_type_2 Schema ",
+      "default": "",
+      "examples": [
+        "alpha"
+      ]
+    }
+  },
+
+  "required": [ "Account_Established_Date", "Bank_Account_Type_1", "Bank_Account_Type_2", "Bank_Address", "Bank_City", "Bank_ID", "Bank_Name", "Bank_State", "Bank_Zip", "Check_Returned_Count", "Customer_Address", "Customer_City", "Customer_Email", "Customer_First_Name", "Customer_Last_Name", "Customer_Middle_Init", "Customer_Name", "Customer_Phone", "Customer_SSN", "Customer_State", "Customer_Zip", "Good_Standing_Rank", "Record_Date_Stamp", "Record_ID" ],
+  "indexed-fields": ["Customer_SSN", "Customer_Name", "Customer_First_Name", "Customer_Last_Name", "Customer_Address"]
+}
