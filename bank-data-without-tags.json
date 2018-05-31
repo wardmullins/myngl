@@ -1,0 +1,33 @@
+{
+"Record_ID":1,
+"Record_Date_Stamp":"datetime",
+"Bank_ID":"alphanumeric",
+"Bank_Name":"alphanumeric",
+"Bank_Address":"alphanumeric",
+"Bank_Address":"alphanumeric",
+"Bank_City":"alphanumeric",
+"Bank_Zip":1,
+"Bank_State":"alpha ",
+"Customer_First_Name":"alpha",
+"Customer_Middle_Init":"alpha",
+"Customer_Last_Name":"alpha",
+"Customer_SSN":1,
+"Customer_Name":1,
+"Customer_Address":"alphanumeric",
+"Customer_Address":"alphanumeric",
+"Customer_City":"alphanumeric",
+"Customer_Zip":1,
+"Customer_State":"alpha ",
+"Customer_Phone":"xxx-xxx-xxxx",
+"Customer_Email":"email",
+"Bank_Account_Type_1":"alpha ",
+"Good_Standing_Rank":1,
+"Account_Established_Date":"date",
+"Check_Returned_Count":1,
+"Bank_Account_Type_2":"alpha ",
+"Good_Standing_Rank":1,
+"Account_Established_Date":"date",
+"Check_Returned_Count":1 
+
+}
+
